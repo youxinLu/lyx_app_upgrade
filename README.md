@@ -6,7 +6,7 @@ app_upgrade完全根据 https://pub.dev/packages/flutter_app_upgrade ,因为flut
 
 ```
 dependencies:
-  flutter_app_upgrade: ^1.1.0
+  lyx_app_upgrade: ^0.0.2
 ```
 
 2、执行flutter命令获取包：
@@ -17,7 +17,7 @@ flutter pub get`
 3、引入
 
 ```
-import 'package:flutter_app_upgrade/flutter_app_upgrade.dart';
+import 'package:lyx_app_upgrade/lyx_app_upgrade.dart';
 
 ```
 
@@ -34,7 +34,7 @@ import 'package:flutter_app_upgrade/flutter_app_upgrade.dart';
 				...
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.flutter.laomeng.flutter_upgrade_example.fileprovider"
+            android:authorities="com.lyx.lyx_app_upgrade_example.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

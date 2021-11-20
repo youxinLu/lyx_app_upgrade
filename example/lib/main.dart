@@ -45,7 +45,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  AppInfo _appInfo;
+  AppInfo? _appInfo;
   List<AppMarketInfo> _appMarketList = [];
   String _installMarkets = '';
 
